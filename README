@@ -32,7 +32,7 @@ Upon running the CLI, you will be presented with several options:
 1. Admit Patient: Admit a patient to the system.
 1. Release Patient: Release a patient from the system with a prescription.
 1. Schedule Appointment: Schedule an appointment for a patient with a doctor.
-1. List Appointments: List all scheduled appointments.
+1. List Appointments: List all scheduled appointments
 1. Exit: Exit the CLI.
 
 
