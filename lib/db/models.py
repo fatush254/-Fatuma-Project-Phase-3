@@ -30,7 +30,7 @@ class Doctor(Base):
     patients = relationship('Patient', secondary=patient_doctor_association, back_populates='doctors')
     appointments = relationship('Appointment', back_populates='doctor')
 
-class Appointment(Base):
+class Appointment(Base)
     __tablename__ = 'appointments'
     id = Column(Integer, primary_key=True)
     doctor_id = Column(Integer, ForeignKey('doctors.id'))
